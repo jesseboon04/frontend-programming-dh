@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid 01</title>
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Flavors&display=swap');">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Flavors&family=Libre+Barcode+39+Text&display=swap');">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');">
+    <style>
+    #dashboard {
+        display: grid;
+        grid-template-columns: 0.3fr  1.6fr 0.7fr;
+        grid-template-rows: 100px 1fr 100px;
+        height: 100vh;
+    }
+    .body{
+        margin: 0;
+        padding: 5px;
+        background-color: white;
+
+    }
+    .header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: rgb(212, 16, 16);
+        color: springgreen;
+        text-align: center;
+        font-size: 75px;
+        font-family:"Inconsolata",sans-serif ;
+        
+        
+    }
+    .footer{
+        
+        grid-column-start: 1;
+        grid-column-end: 4;
+        background-color: aquamarine;
+        color: orange;
+        text-align: center;
+        font-size: 75px;
+        font-family: 'Fascinate', cursive;
+        
+        
+    }
+    .nav{
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: blue;
+        color: aquamarine;
+        text-align: center;
+        padding-top: 500px;
+        font-size: 50px;
+        font-family: 'Fascinate', cursive;
+        
+    }
+    .contents{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        background-color: chartreuse;
+        color: red;
+        text-align: center;
+        padding-top: 500px;
+        font-size: 100px;
+        font-family: 'Flavors', cursive;
+    }
+    .adside{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: orange;
+        color: blue;
+        text-align: center;
+        padding-top: 500px;
+        font-size: 80px;
+        font-family: 'Syncopate', sans-serif;
+    }
+
+    
+    </style>
+</head>
+<body>
+
+
+<div id="dashboard">
+    <div class="item header ">Header</div>
+    <div class="item nav">nav</div>
+    <div class="item contents ">contents</div>
+    <div class="item adside">adside</div>
+    <div class="item footer">footer</div>
+    
+</div>
+
+
+
+</body>
+</html>

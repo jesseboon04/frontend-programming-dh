@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* Een extern lettertype inladen van Google: https://fonts.google.com */
+
+/* De body van het HTML document een standaard stijl geven
+Als font-family gebruik je dus de naam van het ingeladen lettertype (font)
+*/
+body {
+    background: #fff8f8;
+    font-family: 'Roboto Mono', sans-serif;
+   color: #ffffff;
+    font-size: px;
+    padding: 5px 10px;
+}   
+
+/* Alle div elementen die een direct "child" zijn van de div met id="dashboard" */
+#dashboard > div {
+   background-color: rgb(220, 117, 20);
+    padding: 5px 10px;
+    color: #ffffff;
+    border: 1px solid rgb(245, 239, 239);
+    font-size: 50px;
+    font-weight: bold;
+    
+   
+    
+}
+
+/* Alle elementen met de class = "item" */
+.item {
+   background-color: rgb(20, 220, 47);
+    background-color: rgb(50, 220, 20);
+    padding: 5px 10px;
+    color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
