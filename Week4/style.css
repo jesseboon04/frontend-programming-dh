@@ -1,0 +1,73 @@
+body{
+    background-color: antiquewhite
+}
+
+@media screen and (max-width: 900px){   
+  
+#dashbord{
+    display: grid;
+    color: blueviolet;
+    grid-template-columns:1fr;
+    grid-gap: 20px;
+    grid-template-areas:"header"
+                        "tempb" 
+                        "weer"
+                        "agenda"
+                        "verbruik"
+                        "kosten";
+}
+body{
+    background-color: blue;
+}
+}
+@media screen and (min-width: 900px){   
+  
+#dashbord{
+        display: grid;
+        color: rgb(245, 0, 171);
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 50px 1fr 50px;
+        grid-gap: 20px;
+        grid-template-areas:"header tempb weer"
+        "agenda agenda agenda"
+        "verbruik verbruik kosten";                                      
+                           
+}
+body{
+    background-color: green;
+}
+}
+.item{
+    background-color: white;
+    border: 1px solid black;
+    padding:10px ;
+
+}
+.header{
+    background-color: yellowgreen;
+    grid-area: header;
+}
+.tempb{
+    background-color: orange;
+    grid-area: tempb;
+}
+.weer{
+    background-color: skyblue;
+    grid-area: weer;
+}
+.agenda{
+    grid-area: agenda;
+    background-color: rgb(0, 217, 255);
+}
+.verbruik{
+    grid-area: verbruik;
+    background-color: slategrey;
+
+}
+.kosten{
+    grid-area: kosten;
+    background-color: yellow;
+
+}
+
+
