@@ -1,0 +1,27 @@
+[ 
+{
+    "naam": "Smartphone",
+    "vermogen": 5,
+    "image": "images/smartphone.jpg",
+    "code": "PHO"
+},
+{
+    "naam": "televisie",
+    "vermogen": 5,
+    "image": "images/tv.jpg",
+    "code": "tv"
+},
+{
+    "naam": "speaker",
+    "vermogen": 5,
+    "image": "images/speaker.jpg",
+    "code": "sp"
+},
+{
+    "naam": "koelkast",
+    "vermogen": 5,
+    "image": "images/koelkast.jpg",
+    "code": "kl"
+}
+]
+

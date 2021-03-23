@@ -1,0 +1,59 @@
+.apparaat {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.356);
+}
+@media only screen and (max-width: 800px) {
+   #dashboard{
+       grid-template-columns: 1fr;
+       grid-template-rows: 50px;
+       grid-template-areas: 1fr;
+       grid-template-areas: "smartphone"
+                            "televisie"
+                            "speaker"
+                            "koelkast";
+    }
+   
+   
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+
+ @media only screen and (min-width: 800px) {
+    #dashboard{
+        grid-template-columns: 200px 1frpx;
+        grid-template-rows: 50px 1fr;
+        grid-template-areas:"smartphone televisie"
+                            "speaker koelkast";
+
+    }
+    body {
+      background-color: rgb(175, 230, 173);
+    }
+ }
+
+
+.tv{
+    grid-area: televisie;
+}
+.PHO{
+    grid-area: smartphone;
+}
+.speaker{
+    grid-area: speaker;
+}
+.koelkast{
+    grid-area: koelkast;
+}
