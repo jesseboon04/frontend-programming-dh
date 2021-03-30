@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulier</title>
+</head>
+<body id="formulier">
+ <form action="formulier.php" method="POST">
+    <input type="text" placeholder="Voornaam" class="item voornaam" name="voornaam" required><br>
+    <input type="text" placeholder="Tussenvoegsel" class="item tusvoegsel"><br>
+    <input type="text" placeholder="Achternaam" class="item Achternaam" name="achternaam" required><br>
+    <input type="text" placeholder="Gebruikersnaam"class="item genaam" name="gebruikersnaam" minlength="6" maxlength="12" required> <br>
+    <input type="email" placeholder="E-mail adress" class="item email" name="email"required> <br>
+    <input type="password" placeholder="Wachtwoord" class="item wachtwoord" name="wachtwoord" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,16}" required><br>
+    <input type="tel" placeholder="Telefoonnummer" class="item nummer"  name="telefoonnummer" minlength="10" maxlength="11"><br>
+    <p class="item vega">Bent u vegetariër?</p>
+    <input  class="item" type="radio" name="vegata">
+    <label for="JA">JA</label>
+    <input  class="item" type="radio" name="vega">
+    <label for="NEE">NEE</label><br>
+    
+     <input class="item" type="reset"><br>
+     <input class="item" type="submit"><br>
+ </form>
+</body>
+</html>

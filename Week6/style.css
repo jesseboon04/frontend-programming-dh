@@ -1,0 +1,12 @@
+#formulier{
+   background-color: lightblue;
+   text-align: center;
+  
+}
+.item{
+    padding: 5px;
+    margin: 5px;
+}
+.vega{
+    color: rgb(0, 0, 0);
+}
