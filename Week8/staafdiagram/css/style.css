@@ -1,0 +1,28 @@
+body {
+    background-color: seashell;
+}
+
+#grafiek {
+    background-color: #ffffff;
+    border: 2px dotted #333333;
+    width: 800px;
+    height: 600px;
+}
+.weer2021{
+background-color:rgb(214,1,5);
+width: 70px;
+margin-left: 10%;
+}
+.weer2019{
+   background-color: rgb(240,92,79);
+   width: 70px;
+   margin-top: -4.3%;
+   margin-left: 20%;
+}
+.weer2017{
+    width: 70px;
+    background-color: rgb(244,198,62);
+    margin-top: -4.3%;
+   margin-left: 30%;
+
+}

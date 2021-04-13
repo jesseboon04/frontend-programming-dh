@@ -1,0 +1,33 @@
+body {
+    background-color: seashell;
+}
+
+#grafiek {
+    background-color: #ffffff;
+    border: 2px dotted #333333;
+    width: 800px;
+    height: 600px;
+}
+.ct-series-a .ct-line {
+    /* Set the colour of this series line */
+    stroke: rgb(0, 255, 136);
+    /* Control the thikness of your lines */
+    stroke-width: 10px;
+    /* Create a dashed */
+}
+.PvdA{
+    background-color: rgb(68,254,161);
+    width: 80px;
+}
+.VVD{
+    background-color: rgb(240,92,79);
+    width: 70px;
+    margin-top: -4%;
+    margin-left: 25%;
+}
+.Groenlinks{
+    background-color: rgb(246,208,97);
+    width: 155px;
+    margin-top: -4%;
+    margin-left: 10%;
+}
